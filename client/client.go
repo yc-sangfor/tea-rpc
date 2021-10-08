@@ -309,7 +309,7 @@ func (client *Client) DoRequest(action *string, protocol *string, method *string
 		"httpProxy":      tea.StringValue(util.DefaultString(runtime.HttpProxy, client.HttpProxy)),
 		"httpsProxy":     tea.StringValue(util.DefaultString(runtime.HttpsProxy, client.HttpsProxy)),
 		"socks5Proxy":    tea.StringValue(util.DefaultString(runtime.Socks5Proxy, client.Socks5Proxy)),
-		"socks5Network":  tea.StringValue(util.DefaultString(runtime.Socks5NetWork, client.Socks5NetWork)),
+		"socks5NetWork":  tea.StringValue(util.DefaultString(runtime.Socks5NetWork, client.Socks5NetWork)),
 		"noProxy":        tea.StringValue(util.DefaultString(runtime.NoProxy, client.NoProxy)),
 		"maxIdleConns":   tea.IntValue(util.DefaultNumber(runtime.MaxIdleConns, client.MaxIdleConns)),
 		"retry": map[string]interface{}{
