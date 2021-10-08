@@ -9,3 +9,5 @@ require (
 	github.com/aliyun/credentials-go v1.1.2
 	github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e // indirect
 )
+
+replace github.com/alibabacloud-go/tea v1.1.17 => github.com/zzycn003/tea v1.1.18-0.20211008064842-2f2db1e94b97
